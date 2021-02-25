@@ -1,12 +1,12 @@
 {
-  "name": "tilt-effect",
+  "name": "template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "npm-run-all --parallel sass server",
     "server": "live-server",
-    "sass": "node-sass sass/style.scss css/style.css"
+    "sass": "node-sass -w sass/style.scss css/style.css"
   },
   "author": "",
   "license": "ISC",
